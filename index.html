@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/src/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>ADO</title>
+    <link rel="icon" href="/public/Adoo.ico">
+    <style>
+        main {
+            font-family: 'Raleway', sans-serif;
+        }
+
+        main{
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url("https://i.pinimg.com/originals/b8/02/72/b8027272774cf4a075e1112e4aec20b3.gif") 0% 0% / cover no-repeat fixed;
+            image-rendering: pixelated;
+            background-position: center;
+            z-index: -1;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="bg-black text-white p-4 flex items-center justify-around fixed w-full z-10">
+        <a class="button button--active ti hover:bg-pink-700 p-2 rounded-lg font-bold uppercase" href="#main">Inicio</a>
+        <a class="button hover:bg-pink-700 p-2 rounded-lg font-bold uppercase" href="#tweets">Tweets</a>
+    </nav>
+    <main id="main"
+        class=" min-h-screen w-full p-20 flex max-md:flex-col max-md:p-20	 max-lg:p-8 items-center justify-around gap-8 flex-row-reverse overflow-hidden">
+
+        <div class="w-2/5 min-w-96 bg-black rounded-2xl">
+            <h1 class="max-lg:text-5xl text-pink-800 text-6xl font-bold uppercase text-center max-w-screen-md">
+                webscraping para una cuenta de twitter</h1>
+        </div>
+
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 grid-rows-2 gap-2 max-w-5xl h-4/5 ">
+            <div class="col-start-1 row-span-2 border-white border-2">
+                <img class="w-full h-full object-cover brightness-75"
+                    src="https://i.pinimg.com/564x/c2/93/ae/c293ae76be5c34b1c29dc12f05c4ba23.jpg" alt="ado" />
+            </div>
+            <div class="overflow-hidden flex items-center justify-start border-white border-2">
+                <img src="https://i.pinimg.com/564x/ba/93/54/ba9354b2a70930ba3a7312fa0dd2bfdd.jpg" alt="ado"
+                    class="w-full h-full object-cover brightness-75">
+            </div>
+            <div class="border-white border-2">
+                <img src="https://i.pinimg.com/564x/0a/14/c3/0a14c325e3a032a7676c509fd974e62e.jpg" alt="ado"
+                    class="w-full h-full object-cover brightness-75">
+            </div>
+            <div class="border-white border-2">
+                <img src="https://i.pinimg.com/736x/cb/7c/91/cb7c91da88d3daa9a3fef9ec4c80976a.jpg" alt="ado"
+                    class="w-full h-full object-cover brightness-75">
+            </div>
+            <div class="border-white border-2">
+                <img src="https://i.pinimg.com/564x/cb/4e/c4/cb4ec47ec6fdd971740ee5182c453d08.jpg" alt="ado"
+                    class="w-full h-full object-cover brightness-75">
+            </div>
+        </div>
+    </main>
+
+    <section id="tweets" class="bg-slate-950 w-full h-auto p-12 ">
+        <div id="container" class=" flex justify-center flex-col gap-8">
+
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
