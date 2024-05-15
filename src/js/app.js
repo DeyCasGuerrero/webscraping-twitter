@@ -60,7 +60,5 @@ function renderData(data) {
     });
 }
 
-document.addEventListener("DOMContentLoaded", fetchDataAndRenderChart);
-
 
 document.addEventListener("DOMContentLoaded", fetchDataAndRenderChart);
